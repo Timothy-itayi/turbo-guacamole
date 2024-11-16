@@ -1,6 +1,7 @@
 'use client'
 import { useEffect, useState } from 'react';
 import { Post } from '../types/post'
+import PostForm from '@/components/PostForm';
 export default function Home() {
   const [posts, setPosts] = useState<Post[]>([]);
   const [loading, setLoading] = useState(true);
@@ -32,6 +33,8 @@ export default function Home() {
           <p>{post.content}</p>
         </div>
       ))}
+
+      <PostForm/>
     </div>
   );
 }
