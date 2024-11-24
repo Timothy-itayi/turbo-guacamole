@@ -17,6 +17,8 @@ const  PostForm = () => {
       setTitle('');
       setDescription('');
       setContent('');
+      
+      
       alert('Post added successfully!');
     }
   };
