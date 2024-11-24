@@ -20,11 +20,11 @@ export default function Navbar() {
         <div className="items-center static">
           <Link href="/">
             <Image
-              src="/blog.logo.svg"
+              src="/dev-logo.svg"
               width={100}
               height={100}
               alt="blog-logo"
-              className="" // Fixed width and height
+              className="invert " // Fixed width and height
             />
           </Link>
         </div>
@@ -72,13 +72,13 @@ export default function Navbar() {
           </li>
           <li className="py-2">
             <Link href="/studio" className="text-white text-sm font-regular hover:text-[#ff6c3a]">
-              Studios
+           Blog
             </Link>
           </li>
      
           <li className="py-2">
             <Link href="https://timothyitayi.com" className="text-white text-sm font-regular hover:text-[#ff6c3a]">
-              Contact us
+              Contact
             </Link>
           </li>
   
