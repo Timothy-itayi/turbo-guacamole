@@ -20,11 +20,11 @@ export default function Navbar() {
         <div className="items-center static">
           <Link href="/">
             <Image
-              src="/blog-svgrepo-com.svg"
-              width={200}
-              height={200}
-              alt="hiit republic logo"
-              className="w-[200px] h-[auto]" // Fixed width and height
+              src="/blog.logo.svg"
+              width={100}
+              height={100}
+              alt="blog-logo"
+              className="" // Fixed width and height
             />
           </Link>
         </div>
