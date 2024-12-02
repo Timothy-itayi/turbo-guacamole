@@ -3,8 +3,8 @@
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import Hamburger from '../components/Hamburger';
-import Drawer from '../components/Drawer'; 
+import Hamburger from './ui-components/Hamburger';
+import Drawer from './ui-components/Drawer'; 
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
